@@ -18,6 +18,10 @@ Install git packages on jenkins server
 
 - Configure git path
   - `Manage Jenkins` > `Global Tool Configuration` > `git`
+  - for auto pulling code from github
+  - config jenkins din git hubwooks
+      http://169.25.65.255:8080/github-webhook/
+      appliccation/json
 
 #### Next Steps
 
