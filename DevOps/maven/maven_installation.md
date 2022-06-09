@@ -24,6 +24,11 @@ Setup M2_HOME and M2 paths in .bash_profile of user and add these to path variab
   M2_HOME=/opt/maven/apache-maven-3.6.0
   M2=/opt/maven/apache-maven-3.6.0/bin
   PAHT=<Existing_PATH>:$M2_HOME:$M2
+  
+  ####cheek once:
+   echo $PATH -->/sbin:/bin:/usr/sbin:/usr/bin (it show means it not loaded once restart session it will show but if you with out restart session )
+   source ~/.bash_profile
+
 ```
 #### Check point 
 logoff and login to check maven version
