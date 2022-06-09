@@ -26,8 +26,9 @@ Setup M2_HOME and M2 paths in .bash_profile of user and add these to path variab
   PAHT=<Existing_PATH>:$M2_HOME:$M2
   
   ####cheek once:
-   echo $PATH -->/sbin:/bin:/usr/sbin:/usr/bin (it show means it not loaded once restart session it will show but if you with out restart session )
-   source ~/.bash_profile
+   echo $PATH -->/sbin:/bin:/usr/sbin:/usr/bin (it show means it not loaded once restart session it will show but if you want with out restart session ) 
+   
+   type this --->source ~/.bash_profile 
 
 ```
 #### Check point 
